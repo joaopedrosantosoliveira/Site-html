@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="SITE.CSS">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Tipos de  lavagem</a></li>
+            <li><a href="#">Produtos de limpeza</a></li>
+            <li><a href="#">especificações de lavagem</a></li>
+            <li><a href="#">agendamento de horário</a></li>
+            <li>
+                <a href="#">Sobre nós</a>
+                <ul>
+                    <li><a href="#">Sobre nós</a></li>
+                </ul>
+            </li>
+            <li><a href="#">feedback do usuário</a></li>
+        </ul>
+    </nav>
+    <div class="login-container">
+        <h2>Entrar</h2>
+        <form action="processar_login.php" method="POST">
+            <label for="username">Nome de usuário:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>
